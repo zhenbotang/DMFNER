@@ -1,19 +1,27 @@
-# DMFNER: Diffusion-based Multi-Feature Extraction and Fusion for Named Entity Recognition
+# DMFNER: A New Descriptor for a Diffusion-based Multi-feature Extraction and Fusion Method for Named Entity Recognition
 
-Code for the paper *“DMFNER: DMFNER: A New Descriptor for a Diffusion-based Multi-feature Extraction and Fusion Method for Named Entity Recognition”
+Code for the paper *“DMFNER: A New Descriptor for a Diffusion-based Multi-feature Extraction and Fusion Method for Named Entity Recognition”
 
 ---
 
-## 📦 Setup / Requirements
+##  Setup
 
 To run the code, you need:
 
-- Python 3.9+  
-- PyTorch ≥ 1.12  
-- Transformers ≥ 4.x  
-- Other dependencies as listed in `requirements.txt`
-
-Install dependencies:
-
 ```bash
+conda create -n DMFNER python=3.8
 pip install -r requirements.txt
+
+##  Datasets
+
+Nested NER:
+- ACE04: https://catalog.ldc.upenn.edu/LDC2005T09
+- GENIA: http://www.geniaproject.org/genia-corpuss
+Flat NER:
+- CoNLL03: https://data.deepai.org/conll2003.zip
+- MSRA: https://github.com/ShannonAI/mrc-for-flat-nested-ner/blob/master/ner2mrc/download.md
+- WNUT17: https://github.com/leondz/emerging_entities_17
+
+##  Training
+```bash
+python DMFNER.py train --config configs/wnut17.conf
