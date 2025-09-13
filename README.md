@@ -17,11 +17,11 @@ pip install -r requirements.txt
 Nested NER:
 - ACE04: https://catalog.ldc.upenn.edu/LDC2005T09
 - GENIA: http://www.geniaproject.org/genia-corpuss
+
 Flat NER:
 - CoNLL03: https://data.deepai.org/conll2003.zip
 - MSRA: https://github.com/ShannonAI/mrc-for-flat-nested-ner/blob/master/ner2mrc/download.md
 - WNUT17: https://github.com/leondz/emerging_entities_17
 
 ##  Training
-```bash
 python DMFNER.py train --config configs/wnut17.conf
