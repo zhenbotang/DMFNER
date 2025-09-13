@@ -24,11 +24,12 @@ Flat NER:
 - MSRA: https://github.com/ShannonAI/mrc-for-flat-nested-ner/blob/master/ner2mrc/download.md
 - WNUT17: https://github.com/leondz/emerging_entities_17
 
-We provide the preprocessed datasets in these links:
-[ACE2004]([https://link-to-ace-checkpoint](https://drive.google.com/drive/folders/19mi-R8FbMwSRa0QqQ2sraTBA3vzZ5Shb?usp=drive_link)), 
-[GENIA]([https://link-to-genia-checkpoint](https://drive.google.com/drive/folders/1qhMyrWzSw5yCtiQN3LA6hKdAP7jLnH2L?usp=drive_link)), 
-[CoNLL03]([https://link-to-conll03-checkpoint](https://drive.google.com/drive/folders/1QnOdSs7l_gs5CBue9OXPF1OVX9zmjd7U?usp=drive_link)), 
-[MSRA]([https://link-to-msra-checkpoint](https://drive.google.com/drive/folders/1gCEyRy4zPEgVPcqH3c2Ug7Wp7RfLa6E6?usp=drive_link)). . Please download them and put them into the data/datasets folder.
+We provide the preprocessed datasets in these links: 
+[ACE2004](https://drive.google.com/drive/folders/19mi-R8FbMwSRa0QqQ2sraTBA3vzZ5Shb?usp=drive_link), 
+[GENIA](https://drive.google.com/drive/folders/1qhMyrWzSw5yCtiQN3LA6hKdAP7jLnH2L?usp=drive_link), 
+[CoNLL03](https://drive.google.com/drive/folders/1QnOdSs7l_gs5CBue9OXPF1OVX9zmjd7U?usp=drive_link), 
+[MSRA](https://drive.google.com/drive/folders/1gCEyRy4zPEgVPcqH3c2Ug7Wp7RfLa6E6?usp=drive_link).  
+Please download them and put them into the `data/datasets` folder.
 
 ##  Training
 ```
