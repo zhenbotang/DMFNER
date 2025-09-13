@@ -1,0 +1,11 @@
+{
+  "entities": {
+    "PERSON": {"verbose": "PERSON", "short": "PERSON"},
+    "LOCATION": {"verbose": "LOCATION", "short": "LOCATION"},
+    "CORPORATION": {"verbose": "CORPORATION", "short": "CORPORATION"},
+    "CREATIVE-WORK": {"verbose": "CREATIVE-WORK", "short": "CREATIVE-WORK"},
+    "GROUP": {"verbose": "GROUP", "short": "GROUP"},
+    "PRODUCT": {"verbose": "PRODUCT", "short": "PRODUCT"}
+  },
+  "relations": {}
+}
