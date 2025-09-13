@@ -32,7 +32,7 @@ We provide the preprocessed datasets in these links:
 
 ##  Training
 ```
-python DMFNER.py train --config configs/wnut17.conf
+python DMFNER.py train --config configs/ace2004.conf
 ```
 
 ##  Evaluating
