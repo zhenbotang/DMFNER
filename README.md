@@ -34,3 +34,9 @@ We provide the preprocessed datasets in these links:
 ```
 python DMFNER.py train --config configs/wnut17.conf
 ```
+
+##  Evaluating
+```
+python DMFNER.py eval --config configs/eval.conf
+```
+
