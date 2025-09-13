@@ -11,6 +11,7 @@ To run the code, you need:
 ```bash
 conda create -n DMFNER python=3.8
 pip install -r requirements.txt
+```
 
 ##  Datasets
 
@@ -24,4 +25,6 @@ Flat NER:
 - WNUT17: https://github.com/leondz/emerging_entities_17
 
 ##  Training
+```
 python DMFNER.py train --config configs/wnut17.conf
+```
